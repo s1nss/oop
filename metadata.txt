@@ -1,0 +1,30 @@
+File: Helicopter.java
+Size: 1567 bytes
+Last Modified Time: 2023-12-04T11:43:57.5836508Z
+Creation Time: 2023-12-03T18:01:42Z
+
+
+File: main.py
+Size: 261 bytes
+Last Modified Time: 2023-12-04T10:43:41.1586819Z
+Creation Time: 2023-10-18T08:53:19.8899704Z
+
+
+File: Poza.jpg
+Size: 43584 bytes
+Last Modified Time: 2023-07-08T22:15:36.6061646Z
+Creation Time: 2023-12-04T10:37:28.6516662Z
+
+
+File: Poza.png
+Size: 168985 bytes
+Last Modified Time: 2023-05-22T23:11:17.1649213Z
+Creation Time: 2023-12-04T10:37:53.1486851Z
+
+
+File: Text.txt
+Size: 19 bytes
+Last Modified Time: 2023-12-04T11:42:35.6097544Z
+Creation Time: 2023-12-04T10:18:42.0518975Z
+
+

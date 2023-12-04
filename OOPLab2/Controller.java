@@ -39,30 +39,29 @@ public class Controller {
         FileManager fileManager = new FileManager();
         fileManager.readMetadata(file);
 
+        FileInfo fileInfo;
 
         switch(ext[1]){
             case "png" :
             case "jpg" :
-                ImageInfo imgInfo = new ImageInfo(fileManager.name, fileManager.size, fileManager.lastUpdate, fileManager.created,
+                fileInfo = new ImageInfo(fileManager.name, fileManager.size, fileManager.lastUpdate, fileManager.created,
                         fileManager.imageSize[0], fileManager.imageSize[1]);
-                imgInfo.display();
                 break;
             case "txt":
-                TextInfo textInfo = new TextInfo(fileManager.name, fileManager.size, fileManager.lastUpdate, fileManager.created,
+                fileInfo = new TextInfo(fileManager.name, fileManager.size, fileManager.lastUpdate, fileManager.created,
                         fileManager.content);
-                textInfo.display();
                 break;
             case "java":
             case "py":
-                ProgramInfo programInfo = new ProgramInfo(fileManager.name, fileManager.size, fileManager.lastUpdate, fileManager.created,
+                fileInfo = new ProgramInfo(fileManager.name, fileManager.size, fileManager.lastUpdate, fileManager.created,
                         fileManager.content);
-                programInfo.display();
                 break;
             default:
-                FileInfo fileInfo = new FileInfo(fileManager.name, fileManager.size, fileManager.lastUpdate, fileManager.created);
-                fileInfo.display();
+                fileInfo = new FileInfo(fileManager.name, fileManager.size, fileManager.lastUpdate, fileManager.created);
                 break;
         }
+
+        fileInfo.display();
 
     }
 
